@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bgVideo.css">
+    <title>Background Video</title>
+</head>
+<body>
+    
+<div class="monContainer">
+    <video id="myVid" autoplay muted loop class="background-clip">
+        <source src="video/pexels-clément-proust-15613729 (1440p).mp4"  type="video/mp4" >
+    </video>
+
+
+    <div class="contenu">
+        <h1>Voyagez avec nous</h1>
+        <a href="#">partez en vacances</a> <button id="myBtn" onclick="myFonction()"> Pause </button>
+    </div>
+</div>
+
+<script>
+    var video=document.getElementById("myVid");
+    var btn=document.getElementById("myBtn");
+
+    function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+
+</script>
+
+
+</body>
+</html>
