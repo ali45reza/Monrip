@@ -1,0 +1,92 @@
+.p1{
+    animation:mymove 5s infinite ;
+    animation-direction: reverse;
+    margin-bottom: 20px;
+    text-align: right;
+}
+@keyframes mymove {
+    from{margin-right: 285px;}
+    to{margin-right: 3px;}
+}
+
+.p2{
+    animation:blink-ani 1s infinite ;
+    animation-direction: alternate;
+    color: rgb(10, 49, 36);
+
+}
+@keyframes blink-ani {
+    from{opacity: 1.0;}
+    to{opacity: 0.0;}
+}
+
+                                /* exersise 2 */
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px ;
+    background-color: aqua;
+    position: relative;
+  }
+
+ .div1{
+    animation: mymov 8s infinite;
+}
+.div2{
+    animation: mymov2 8s infinite;
+}
+.div3{
+    animation: mymov3 8s infinite;
+}
+
+   @keyframes mymov {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 85vw; background: blue;}
+    50%  {top: 30vh; left: 85vw; background: yellow;}
+    75%  {top: 30vh; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+  }
+  @keyframes mymov2 {
+    25%  {top: 0px; left: 0px; background: red;}
+    0%  {top: 0px; left: 85vw; background: blue;}
+    50%  {top: 30vh; left: 85vw; background: yellow;}
+    75%  {top: 30vh; left: 0px; background: green;}
+    75% {top: 0px; left: 0px; background: red;}
+  }
+  @keyframes mymov3 {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 85vw; background: blue;}
+    50%  {top: 30vh; left: 85vw; background: yellow;}
+    100% {top: 30vh; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+  } 
+
+
+                                /* exersise 3 */
+
+.di1{
+    animation: mymo 4s infinite;
+}
+.di2{
+    animation: mymo2 4s infinite;
+    
+}
+.di3{
+    animation: mymo3 4s infinite;
+    animation-direction: alternate;
+}
+
+  
+@keyframes mymo {
+    from{margin-left:50vw;}
+    to {margin-left: 40vw;}}
+
+ @keyframes mymo2 {
+    from{margin-left:100px;}
+    to {margin-left: 60vw;}}
+ 
+
+ @keyframes mymo3 {
+    from{margin-left:150px;}
+    to {margin-left: 70vw;}}
