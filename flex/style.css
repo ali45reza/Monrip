@@ -1,0 +1,18 @@
+.child{
+    width: 60px;
+    border: 2px solid sandybrown;
+}
+.parent{
+    width: 90%;
+    border: 1px solid saddlebrown;
+    height: 70vh;
+    display: flex;
+    /* flex-direction: column,row,row-reverse,column-reverse; */
+    /* justify-content: flex-end, flex-start, space-around,space-between; */
+    /* align-items: flex-end,flex-end,center,stretch,baseline; */
+    /* flex-wrap: wrap-reverse,nowrap; */
+    /* flex-flow: wrap,wrap-reverse,nowrap,row,row-reverse,column,column-reverse; */
+    align-items: stretch;
+
+
+}
