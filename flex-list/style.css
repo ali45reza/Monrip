@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: baseline;
+
+    border: 1px solid firebrick;
+}
+li:nth-child(+1){
+background-color: blue;
+}
+li:nth-child(2){
+    background-color: rgb(93, 93, 241)
+}
+li:nth-child(3){
+    background-color: rgb(48, 131, 158)
+}
+li:nth-child(4){
+    background-color: grey
+}
+li:nth-child(5){
+    background-color: rgb(166, 163, 163)
+}
+li{
+
+    width: 250px;
+    height: 60vh;
+}
