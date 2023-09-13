@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(158, 225, 76);
+    display: flex;
+}
+.container{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(158, 225, 76);
+    display: flex;
+
+}
+#images{
+    border: 5px solid orange;
+    margin: auto;
+    display: flex;
+    width: 500px;
+    border: solid 1px red;
+    overflow: hidden;
+}
+img{
+    aspect-ratio: 16/9;
+    width: 500px;
+    animation: carousel infinite 10s ;
+
+}
+@keyframes carousel{
+    0%{
+        transform: translatex(0);
+    }
+    20%{
+        transform: translatex(-500px);
+    }
+    40%{
+        transform: translatex(-1000);
+    }
+    60%{
+        transform: translatex(-1500px);
+    }
+    80%{
+        transform: translatex(-2000px);
+    }
+
+    100%{
+        transform: translatex(-0);
+    }
+}
